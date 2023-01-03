@@ -12,6 +12,10 @@
 		2902C64F2964D5E70033B178 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C64E2964D5E70033B178 /* MainTabBarViewController.swift */; };
 		2902C6542964D5E80033B178 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2902C6532964D5E80033B178 /* Assets.xcassets */; };
 		2902C6572964D5E80033B178 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2902C6552964D5E80033B178 /* LaunchScreen.storyboard */; };
+		2902C6602964DC4D0033B178 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C65F2964DC4D0033B178 /* HomeViewController.swift */; };
+		2902C6622964DC8D0033B178 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6612964DC8D0033B178 /* UpcomingViewController.swift */; };
+		2902C6642964DCC50033B178 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6632964DCC50033B178 /* SearchViewController.swift */; };
+		2902C6662964DCF50033B178 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C6652964DCF50033B178 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		2902C6532964D5E80033B178 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2902C6562964D5E80033B178 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2902C6582964D5E80033B178 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2902C65F2964DC4D0033B178 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2902C6612964DC8D0033B178 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		2902C6632964DCC50033B178 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2902C6652964DCF50033B178 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		2902C6492964D5E70033B178 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				2902C65E2964DC280033B178 /* Controllers */,
 				2902C64A2964D5E70033B178 /* AppDelegate.swift */,
 				2902C64C2964D5E70033B178 /* SceneDelegate.swift */,
 				2902C64E2964D5E70033B178 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				2902C6582964D5E80033B178 /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		2902C65E2964DC280033B178 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2902C65F2964DC4D0033B178 /* HomeViewController.swift */,
+				2902C6612964DC8D0033B178 /* UpcomingViewController.swift */,
+				2902C6632964DCC50033B178 /* SearchViewController.swift */,
+				2902C6652964DCF50033B178 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2902C6642964DCC50033B178 /* SearchViewController.swift in Sources */,
 				2902C64F2964D5E70033B178 /* MainTabBarViewController.swift in Sources */,
+				2902C6662964DCF50033B178 /* DownloadsViewController.swift in Sources */,
 				2902C64B2964D5E70033B178 /* AppDelegate.swift in Sources */,
 				2902C64D2964D5E70033B178 /* SceneDelegate.swift in Sources */,
+				2902C6622964DC8D0033B178 /* UpcomingViewController.swift in Sources */,
+				2902C6602964DC4D0033B178 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
