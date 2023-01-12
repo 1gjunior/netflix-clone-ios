@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		29026D2B296F9DD500FDBFA2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29026D2A296F9DD500FDBFA2 /* Extensions.swift */; };
-		29026D2D296FA68A00FDBFA2 /* Tv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29026D2C296FA68A00FDBFA2 /* Tv.swift */; };
 		2902C64B2964D5E70033B178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C64A2964D5E70033B178 /* AppDelegate.swift */; };
 		2902C64D2964D5E70033B178 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C64C2964D5E70033B178 /* SceneDelegate.swift */; };
 		2902C64F2964D5E70033B178 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C64E2964D5E70033B178 /* MainTabBarViewController.swift */; };
@@ -21,12 +20,11 @@
 		2902C66D2964E5580033B178 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2902C66C2964E5580033B178 /* CollectionViewTableViewCell.swift */; };
 		298E459F296655720055533D /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298E459E296655720055533D /* HeroHeaderUIView.swift */; };
 		29DA21F1296E515D00E11186 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA21F0296E515D00E11186 /* APICaller.swift */; };
-		29DA21F3296E563400E11186 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA21F2296E563400E11186 /* Movie.swift */; };
+		29DA21F3296E563400E11186 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA21F2296E563400E11186 /* Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		29026D2A296F9DD500FDBFA2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		29026D2C296FA68A00FDBFA2 /* Tv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tv.swift; sourceTree = "<group>"; };
 		2902C6472964D5E70033B178 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2902C64A2964D5E70033B178 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2902C64C2964D5E70033B178 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +39,7 @@
 		2902C66C2964E5580033B178 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		298E459E296655720055533D /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		29DA21F0296E515D00E11186 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
-		29DA21F2296E563400E11186 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		29DA21F2296E563400E11186 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +118,7 @@
 		2902C6692964E4CE0033B178 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				29DA21F2296E563400E11186 /* Movie.swift */,
-				29026D2C296FA68A00FDBFA2 /* Tv.swift */,
+				29DA21F2296E563400E11186 /* Title.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,8 +219,7 @@
 				29026D2B296F9DD500FDBFA2 /* Extensions.swift in Sources */,
 				2902C64D2964D5E70033B178 /* SceneDelegate.swift in Sources */,
 				2902C6622964DC8D0033B178 /* UpcomingViewController.swift in Sources */,
-				29DA21F3296E563400E11186 /* Movie.swift in Sources */,
-				29026D2D296FA68A00FDBFA2 /* Tv.swift in Sources */,
+				29DA21F3296E563400E11186 /* Title.swift in Sources */,
 				2902C6602964DC4D0033B178 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
