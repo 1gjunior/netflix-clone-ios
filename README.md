@@ -1,5 +1,7 @@
 # Netflix Finder
 
+
+
 ## Technologies
 
 Technologies used in the project
